@@ -1,7 +1,9 @@
 # pendeteksi-kesehatan-daun
 Nama Tim:
 
+
 Marga Siregar
+
 
 Anggota Tim:
 1. Afgan Valent Abdino
@@ -10,13 +12,18 @@ Anggota Tim:
 4. Nugraha Selo
 5. Yuda Yana
 
+
 Kelas: XI RPL II
+
 
 Deskripsi Produk
 
+
 LeafVision adalah aplikasi pendeteksi kondisi daun tanaman menggunakan teknologi Artifical Intelegence (AI). sistem ini mampu mengedentifikaasi apakah daun termasuk sehat atau sakit hanya melalui gambar kamera atau upload foto.
 
+
 aplikasi ini di buat untuk membantu petani.pelajar,maupun masyarakat umum dalam medeteksi penyakit tamanan lebih cepat sehingga penanganan dapat di lakukan sejak dini 
+
 
 #USE CASE
 
@@ -29,12 +36,14 @@ kurangnya pengetahuan masyarakat tentang ciri penyakit pada tanaman
 proses pengecekan tanaman membutuhkan waktu dan tenaga.
 
 Solusi:
-
 pengguna cukup untuk mengapload gambar daun
+
 
 sistem AI akan menganalisis gambar secara otomatis.
 
+
 hasil klasifikasi ditampilkan sebagai daun sehat atau daun sakit 
+
 
 
 #ARSITEKTUR MODEL
@@ -42,13 +51,19 @@ pada proyek ini kami menggunakan model AI YOLOV11n untuk melakukan deteksi objek
 
 Alasan memilih YOLOv11n
 
+
 ringan cocok dijalakan di laptop biasa maupun perangkat edge 
+
 
 cepat proses deteksi real time 
 
+
 efisien tetap memiliki akurasi yang baik dengan ukuran model kecil.
 
+
+
 mudah diintegrasikan medukung deployment ke streamlit maupun web app lainya 
+
 
 
 #ALUR SISTEM
@@ -60,7 +75,9 @@ mudah diintegrasikan medukung deployment ke streamlit maupun web app lainya
    
 
 #AKSESIBILITAS
+
 streamlit
+
 github  
 
 
