@@ -50,29 +50,33 @@ efisien tetap memiliki akurasi yang baik dengan ukuran model kecil.
 
 mudah diintegrasikan medukung deployment ke streamlit maupun web app lainya 
 
-#ALUR SISTEM
 
-1.pengguna mengupload gambar daun.
-2.sistem memproses gamnbar menggunakan model YOLOv11n.
-3.model mendeteksi kondisi daun.
-4.hasil klasifikasi ditampilkan kepada pengguna.
+#ALUR SISTEM
+1. pengguna mengupload gambar daun.
+2. sistem memproses gamnbar menggunakan model YOLOv11n.
+3. model mendeteksi kondisi daun.
+4. hasil klasifikasi ditampilkan kepada pengguna.
+
+   
 
 #AKSESIBILITAS
 streamlit
 github  
 
-CARA MENJALAKAN PROJECT 
+
+#CARA MENJALAKAN PROJECT 
 
 bash 
 pip install -r requirements.txt streamlit run app.py
 
-TEKNOLOGI YANG DIGUNAKAN 
+
+#TEKNOLOGI YANG DIGUNAKAN 
 
 YOLOv11n
 streamlit
 openCV
 ultralytics YOLO 
 
-PENUTUP 
+#PENUTUP 
 
 dengan adanya aplikasi leafvision diharapkan proses identifikasi kesehatan tanaman menjadi lebih cepat,dan mudah di gunakan oleh siapa saja  
